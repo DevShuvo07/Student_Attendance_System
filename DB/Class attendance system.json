@@ -1,0 +1,66 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"android_project"},
+{"type":"table","name":"student_details","database":"android_project","data":
+[
+{"ID":"15162103105","Name":"Hasanuzzaman Shuvo","Dept":"CSE","intake":"32","section":"3"},
+{"ID":"15162103127","Name":"Ashiqure Rahman","Dept":"cse","intake":"32","section":"3"},
+{"ID":"15162102225","Name":"hasan","Dept":"cse","intake":"32","section":"1"},
+{"ID":"15162102117","Name":"noyon","Dept":"cse","intake":"32","section":"1"},
+{"ID":"15162102107","Name":"karim","Dept":"cse","intake":"29","section":"1"},
+{"ID":"151616","Name":"parves","Dept":"cse","intake":"29","section":"1"},
+{"ID":"15162102127","Name":"noyon","Dept":"CSE","intake":"32","section":"1"},
+{"ID":"121212","Name":"sh","Dept":"CSE","intake":"32","section":"1"}
+]
+}
+,{"type":"table","name":"tbl_registration","database":"android_project","data":
+[
+{"std_id":"15162103105","std_name":"asdf","Role":"","std_course_no":"cse 498","std_intk":"32","std_sec":"3","std_atndnc":"A7A7A8A9A9A9A9A9A9","RegisterORnot":"","S_no":"054","mod_time":"2021-07-01 02:05:44"},
+{"std_id":"15162102107","std_name":"wsxc","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"A7S4G5R7S1S2I3","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15162102127","std_name":"asdffgh","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"A7W4A2D3A6S1S2I3","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15162102225","std_name":"qwert","Role":"CR","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A51111111131F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 17:08:56"},
+{"std_id":"15162102117","std_name":"fjjhd","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A751312131F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:46"},
+{"std_id":"151616","std_name":"mjhhyr","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"A7S1S1S2I3","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15162102116","std_name":"CCCC","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A75131112131F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102115","std_name":"SHAKA","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A2S1G231F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102118","std_name":"DFFJD","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A1A21111F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102120","std_name":"DDDDD","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A91111F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102131","std_name":"AAAA","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A91111F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102156","std_name":"BBBBB","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A9111141J21111F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15161656789","std_name":"","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"S1S1S161R1S1","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15161631052","std_name":"","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"S1S1S161R1S1G2","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15162102999","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"1111H2G2F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15161631057","std_name":"","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"G2K2","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15161631056","std_name":"","Role":"","std_course_no":"cse 304","std_intk":"29","std_sec":"1","std_atndnc":"G2K2","RegisterORnot":"","S_no":"054","mod_time":"2021-06-29 18:55:57"},
+{"std_id":"15162102900","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"H2G2F7F7R7Q7","RegisterORnot":"","S_no":"054","mod_time":"2021-07-27 02:06:47"},
+{"std_id":"15162102908","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"K2L2L2J2J2J2F7F7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102910","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"77AABBB7C7F7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102122","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"D7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102123","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"D7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102125","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"D7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102124","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"D7D7F7F7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"15162102127","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"E7F7F7R7Q7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:25:27"},
+{"std_id":"151616","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"A3","RegisterORnot":"U","S_no":"","mod_time":"2021-07-27 17:37:49"},
+{"std_id":"1516","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"R7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:41:22"},
+{"std_id":"15166","std_name":"","Role":"","std_course_no":"cse 105","std_intk":"32","std_sec":"1","std_atndnc":"R7","RegisterORnot":"U","S_no":"054","mod_time":"2021-07-27 17:42:23"}
+]
+}
+,{"type":"table","name":"teacher","database":"android_project","data":
+[
+{"Name":"Hasanuzzaman Shuvo","username":"shuvo1","F_code":"SHS","Email":"shuvo0705@gmail.com","Room":"302","password":"123456","OTP":"CSE_SHS"},
+{"Name":"shuvo","username":"shuvo123","F_code":"shs","Email":"shsas@gamil.com","Room":"302","password":"123456","OTP":"5210"},
+{"Name":"Hasanuzzaman","username":"shuvo2","F_code":"SH","Email":"sh@gmail.com","Room":"301","password":"123456","OTP":"258"},
+{"Name":"shuvo","username":"shuvo7","F_code":"sh","Email":"sh@gmail.com","Room":"302","password":"123456","OTP":"305"}
+]
+}
+,{"type":"table","name":"teacher_course","database":"android_project","data":
+[
+{"Teacher_Code":"sh","DEPT":"BSc Engg in CSE","Course_Code":"cse 105","intake":"32","section":"1","S_no":"054","Number_of_class":"19"},
+{"Teacher_Code":"shs","DEPT":"BSc Engg in EEE","Course_Code":"EEE301","intake":"22","section":"4","S_no":"054","Number_of_class":"1"},
+{"Teacher_Code":"sh","DEPT":"BSc Engg in EEE","Course_Code":"cse 101","intake":"25","section":"4","S_no":"054","Number_of_class":"4"},
+{"Teacher_Code":"sh","DEPT":"BSc Engg in CSE","Course_Code":"cse 304","intake":"29","section":"1","S_no":"054","Number_of_class":"0"},
+{"Teacher_Code":"shs","DEPT":"BSc Engg in CSE","Course_Code":"EEE101","intake":"32","section":"3","S_no":"054","Number_of_class":"0"},
+{"Teacher_Code":"sh","DEPT":"BSc Engg in EEE","Course_Code":"cse 102","intake":"29","section":"2","S_no":"054","Number_of_class":"0"}
+]
+}
+]

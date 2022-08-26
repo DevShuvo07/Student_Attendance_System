@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Class Attendance System(CAS)</string>
+    <string name="title_activity_t">t</string>
+    <string name="select_Program">Program</string>
+    <string-array name="Program">
+        <item>BSc Engg in CSE</item>
+        <item>BSc in EEE</item>
+        <item>BSc in CSIT</item>
+        <item>BSc(hons) in English</item>
+        <item>BSc(hons) in Economics</item>
+    </string-array>
+    <string name="select_Course_code">Course Code</string>
+    <string-array name="Course_code">
+        <item>CSE 217</item>
+        <item>CSE 317</item>
+        <item>CSE 301</item>
+        <item>CSE 256</item>
+        <item>CSE 101</item>
+    </string-array>
+    <string name="select_Intake">Intake</string>
+    <string-array name="Intake">
+        <item>32</item>
+        <item>36</item>
+        <item>37</item>
+        <item>30</item>
+        <item>35</item>
+    </string-array>
+    <string-array name="Section">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="Student_id">
+        <item>15162103105</item>
+        <item>15162103101</item>
+        <item>15132103127</item>
+        <item>15162103117</item>
+        <item>15162103130</item>
+        <item>15132103128</item>
+        <item>15162103118</item>
+        <item>15162103103</item>
+        <item>15162103105</item>
+        <item>1516210312</item>
+        <item>15132103124</item>
+        <item>15162103114</item>
+        <item>15162103132</item>
+        <item>15132103129</item>
+        <item>15162103119</item>
+        <item>15162103104</item>
+    </string-array>
+    <string-array name="presentday">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="std_name">
+        <item>shuvo</item>
+        <item>hasan</item>
+        <item>Noyon</item>
+        <item>Parves</item>
+        <item>Raisul</item>
+        <item>Noyon</item>
+        <item>Ashik</item>
+        <item>Sadaf</item>
+        <item>shimato</item>
+        <item>Rony</item>
+    </string-array>
+    <string-array name="Attendance">
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>10</item>
+        <item>50</item>
+        <item>60</item>
+        <item>60</item>
+        <item>70</item>
+        <item>95</item>
+        <item>85</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="list_view">LIST_VIEW</string>
+    <string name="ad_hoc">AD_HOC</string>
+    <string name="title_activity_student__view_all">Student_View_all</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="About">
+        This is to certify that this project “Class Attendance System" submitted by Sk Hasanuzzaman Shuvo , Md. Ashiqur Rahman, and Md. Neaz Nasir Ullah Khan students of the Department of Computer Science and Engineering, Bangladesh University of Business and Technology, under the supervision of Mr. Mijanur Rahman, Assistant Professor, Department of Computer Science and Engineering has been accepted as satisfactory for the partial requirements for the degree of Bachelor of Science Engineering in Computer Science and Engineering.
+        \n\n Group Member
+    </string>
+</resources>

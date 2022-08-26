@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ad_hoc_list">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_view_with_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="586dp"
+            android:dividerHeight="2dp"
+            android:listSelector="#FFD600"/>
+        <!-- android:layout_height="586dp" -->
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="1dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Remove id"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+
+<include layout="@layout/activity_pop_up"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:id="@+id/ad_hoc"
+    tools:context=".ad_hoc_test"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Program :"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+            <Spinner
+                android:id="@+id/program"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Program :"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="67dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Code :"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_below="@id/program"/>
+            <Spinner
+                android:id="@+id/Course_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/program"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="95dp"
+                />
+
+            <Button
+                android:id="@+id/Find"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section"
+                android:text="Find" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intake :"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@id/Course_code"/>
+            <Spinner
+                android:id="@+id/Intake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Course_code"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section :"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@id/Intake"/>
+            <Spinner
+                android:id="@+id/section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Intake"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Find"
+                android:visibility="invisible"
+                android:id="@+id/buttom">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Add to List"
+                    android:id="@+id/add_to_list"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="View List"
+                    android:id="@+id/list_view"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttom"
+                android:visibility="invisible"
+                android:id="@+id/view">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/view1">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkbox2"
+                            android:width="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/std_id"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:hint="15162103105"
+                            android:textColor="#000000"
+                            android:layout_marginLeft="80dp"
+                            android:background="@android:color/transparent" />
+                        <CheckBox
+                            android:id="@+id/checkbox3"
+                            android:width="50dp"
+                            android:layout_below="@id/checkbox2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/std_id1"
+                            android:textSize="20dp"
+                            android:layout_below="@id/checkbox2"
+                            android:textStyle="bold"
+                            android:hint="15162103105"
+                            android:textColor="#000000"
+                            android:layout_marginLeft="80dp"
+                            android:background="@android:color/transparent" />
+                        <CheckBox
+                            android:id="@+id/checkbox4"
+                            android:width="50dp"
+                            android:layout_below="@id/checkbox3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/std_id2"
+                            android:textSize="20dp"
+                            android:layout_below="@id/checkbox3"
+                            android:textStyle="bold"
+                            android:hint="15162103105"
+                            android:textColor="#000000"
+                            android:layout_marginLeft="80dp"
+                            android:background="@android:color/transparent" />
+                        <CheckBox
+                            android:id="@+id/checkbox5"
+                            android:width="50dp"
+                            android:layout_below="@id/checkbox4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/std_id3"
+                            android:textSize="20dp"
+                            android:layout_below="@id/checkbox4"
+                            android:textStyle="bold"
+                            android:hint="15162103105"
+                            android:textColor="#000000"
+                            android:layout_marginLeft="80dp"
+                            android:background="@android:color/transparent" />
+                        <CheckBox
+                            android:id="@+id/checkbox6"
+                            android:width="50dp"
+                            android:layout_below="@id/checkbox5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"/>
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/std_id4"
+                            android:layout_below="@id/checkbox5"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:hint="15162103105"
+                            android:textColor="#000000"
+                            android:layout_marginLeft="80dp"
+                            android:background="@android:color/transparent" />
+<!--                        <Button-->
+<!--                            android:layout_width="30dp"-->
+<!--                            android:layout_height="30dp"-->
+<!--                            android:layout_marginLeft="40dp"-->
+<!--                            android:background="@android:color/transparent" />-->
+                    </RelativeLayout>
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_below="@id/view"-->
+<!--                        android:background="@android:color/transparent"-->
+<!--                        android:text="Add More"-->
+<!--                        android:id="@+id/add_more"-->
+<!--                        android:textSize="15dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_marginTop="5dp"/>-->
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

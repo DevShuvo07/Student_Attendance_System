@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:padding="16dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/teacher" />
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/username1"
+        android:background="#ffffff"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password1"
+        android:password="true"
+        android:hint="Password" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="20dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/checkbox_color"
+            android:id="@+id/remember_me"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:textColor="@color/white"
+            android:layout_marginLeft="35dp"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Login_Button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background1"
+        android:insetLeft="6dp"
+        android:insetTop="6dp"
+        android:insetRight="6dp"
+        android:insetBottom="6dp"
+        android:text="Login"
+        android:textColor="#57c5ff"
+        app:strokeColor="@color/white" />
+
+
+</LinearLayout>

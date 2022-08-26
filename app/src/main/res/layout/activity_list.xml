@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background3"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".StudentView">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program :"
+        android:textSize="15dp"
+        />
+    <Spinner
+        android:id="@+id/program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program :"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="67dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Code :"
+        android:textSize="15dp"
+        android:layout_below="@id/program"/>
+    <Spinner
+        android:id="@+id/Course_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/program"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="95dp"
+        />
+
+    <Button
+        android:id="@+id/Find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section"
+        android:text="Find" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intake :"
+        android:textSize="15dp"
+        android:layout_below="@id/Course_code"/>
+    <Spinner
+        android:id="@+id/Intake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Course_code"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section :"
+        android:textSize="15dp"
+        android:layout_below="@id/Intake"/>
+    <Spinner
+        android:id="@+id/section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Intake"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp" />
+
+
+
+</RelativeLayout>

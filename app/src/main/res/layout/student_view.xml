@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3A9E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="5"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <CheckBox
+            android:checked="true"
+            android:id="@+id/checkbox"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:theme="@style/checkbox_color"
+            android:clickable="false"
+            android:focusable="false"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_name"
+                android:text="Student Name"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Text_CR"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textStyle="normal"
+                android:layout_marginTop="-26dp"
+                android:layout_marginLeft="250dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/student_id"
+                android:text="Student Id"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="80"
+            android:id="@+id/attendance"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="%"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
